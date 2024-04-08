@@ -7,6 +7,8 @@ parameters:
 subscribe:
   scmUrls:
     - https://github.com/VonnyJap/python-zero-to-hero.git: ['~commit', '~pr']
+annotations:
+  screwdriver.cd/chainPR: true
 shared:
   environment: 
     FOO: hello
