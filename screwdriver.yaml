@@ -1,4 +1,9 @@
 template: sd-test/example-template@latest
+parameters:
+  nameA: "value3"
+  nameB:
+    value: "value2"
+    description: "description of nameB"
 shared:
   environment: 
     FOO: hello
