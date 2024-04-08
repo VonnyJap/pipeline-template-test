@@ -10,3 +10,4 @@ subscribe:
 shared:
   environment: 
     FOO: hello
+    BAR: world
